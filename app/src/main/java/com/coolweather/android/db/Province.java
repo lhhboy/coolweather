@@ -36,4 +36,13 @@ public class Province extends DataSupport {
     public int getProvinceCode() {
         return provinceCode;
     }
+
+    @Override
+    public String toString() {
+        return "Province{" +
+                "id=" + id +
+                ", provinceName='" + provinceName + '\'' +
+                ", provinceCode=" + provinceCode +
+                '}';
+    }
 }

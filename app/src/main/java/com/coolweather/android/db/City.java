@@ -45,4 +45,14 @@ public class City extends DataSupport {
     public int getProvinceId() {
         return provinceId;
     }
+
+    @Override
+    public String toString() {
+        return "City{" +
+                "id=" + id +
+                ", cityName='" + cityName + '\'' +
+                ", provinceId=" + provinceId +
+                ", cityCode=" + cityCode +
+                '}';
+    }
 }
